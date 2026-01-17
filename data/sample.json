@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "response-01",
+      "name": "response_01",
+      "category": "new",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "response-02",
+      "name": "response_02",
+      "category": "returning",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "response-03",
+      "name": "response_03",
+      "category": "vip",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "response-04",
+      "name": "response_04",
+      "category": "trial",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "response-05",
+      "name": "response_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "response-06",
+      "name": "response_06",
+      "category": "returning",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "response-07",
+      "name": "response_07",
+      "category": "vip",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "response-08",
+      "name": "response_08",
+      "category": "trial",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "response-09",
+      "name": "response_09",
+      "category": "new",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "response-10",
+      "name": "response_10",
+      "category": "returning",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "response-11",
+      "name": "response_11",
+      "category": "vip",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "response-12",
+      "name": "response_12",
+      "category": "trial",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "response-12",
+    "issue_count": 1
+  }
+}

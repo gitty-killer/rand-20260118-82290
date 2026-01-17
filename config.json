@@ -1,0 +1,13 @@
+{
+  "project_title": "Survey Insights Board",
+  "goal": "Aggregate survey scores and detect weak segments.",
+  "entity_name": "response",
+  "amount_label": "responses",
+  "score_label": "satisfaction_score",
+  "categories": [
+    "new",
+    "returning",
+    "vip",
+    "trial"
+  ]
+}
